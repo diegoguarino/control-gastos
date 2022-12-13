@@ -85,6 +85,8 @@ const Modal = ({
 
                     <input 
                         id="cantidad"
+                        min="1"
+                        //pattern="[0-9]{0,13}"
                         type="number"
                         placeholder="Añade La cantidad del gasto: ej. 300"
                         value={cantidad}
